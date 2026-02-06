@@ -23,6 +23,7 @@ function App() {
         <MovieGallery title="Non perderti la saga di Lord of the rings" saga="Lord of the Rings" />
         <MovieGallery title="Non perderti la saga di Star Wars" saga="Star Wars" />
         <MovieGallery title="Non perderti la saga di Jurassic World" saga="Jurassic World" />
+        <MovieGallery title="Non perderti la saga di Batman" saga="Batman" />
       </div>
       <MyFooter />
     </div>

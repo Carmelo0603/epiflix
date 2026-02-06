@@ -8,6 +8,8 @@ const MyNavbar = () => (
         <img src={NetflixLogo} alt="" style={{ width: "100px", height: "55px" }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <i className="bi bi-search icons"></i>
+
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto fw-bold">
           <Nav.Link href="#" active>
@@ -19,7 +21,6 @@ const MyNavbar = () => (
           <Nav.Link href="#">My List</Nav.Link>
         </Nav>
         <div className="d-flex align-items-center">
-          <i className="bi bi-search icons"></i>
           <div id="kids" className="fw-bold">
             KIDS
           </div>

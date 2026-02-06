@@ -1,5 +1,7 @@
 import { Component } from "react";
 import { Row, Col, Spinner, Alert, Carousel } from "react-bootstrap";
+import Error from "./Error";
+import Loading from "./Loading";
 
 // Funzione di utilità per dividere l'array di film in "pezzi" da 6
 
@@ -71,8 +73,8 @@ class MovieGallery extends Component {
             <Spinner animation="border" variant="danger" />
           </div>
         )}
-
-        {this.state.isError && <Alert variant="danger">Impossibile caricare i film per "{this.props.title}".</Alert>}
+        {this.state.isLoading && <Loading />}
+        {this.state.isError && <Error message={`Errore nel caricamento di ${this.props.title}`} />}
 
         {!this.state.isLoading && !this.state.isError && (
           <Carousel indicators={false} interval={null} className="movie-carousel">
