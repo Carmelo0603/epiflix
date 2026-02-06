@@ -50,7 +50,6 @@ h4 {
 }
 
 .movie-carousel .carousel-item {
-  /* Evitiamo che la riga vada a capo e crei scroll orizzontale */
   transition: transform 0.6s ease-in-out;
 }
 
@@ -61,7 +60,7 @@ h4 {
 
 .movie-poster {
   width: 100%;
-  height: 300px; /* Altezza fissa obbligatoria per l'ordine mentale del grafico */
+  height: 300px;
   object-fit: cover;
   border-radius: 4px;
   transition: transform 0.3s ease;
