@@ -1,0 +1,50 @@
+body {
+  background-color: #141414;
+  color: #f5f5f1;
+}
+
+h2,
+h4 {
+  color: #f5f5f1;
+}
+
+.icons {
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+  font-size: 1.2em;
+  color: #f5f5f1;
+}
+
+#kids {
+  color: #f5f5f1;
+  font-size: 0.8em;
+}
+
+.footer-icon {
+  color: #838383;
+  font-size: 1.2em;
+}
+
+.footer-links a {
+  color: #838383;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.footer-links a:hover {
+  color: #f5f5f1;
+}
+
+.copyright {
+  color: #838383;
+  font-size: 0.6em;
+}
+
+.movie-poster {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.movie-poster:hover {
+  transform: scale(1.1);
+}
