@@ -48,3 +48,26 @@ h4 {
 .movie-poster:hover {
   transform: scale(1.1);
 }
+
+.movie-carousel .carousel-item {
+  /* Evitiamo che la riga vada a capo e crei scroll orizzontale */
+  transition: transform 0.6s ease-in-out;
+}
+
+.movie-carousel .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.movie-poster {
+  width: 100%;
+  height: 300px; /* Altezza fissa obbligatoria per l'ordine mentale del grafico */
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.movie-poster:hover {
+  transform: scale(1.1);
+  z-index: 10;
+}

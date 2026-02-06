@@ -19,9 +19,10 @@ function App() {
         </div>
 
         {/* Gallerie con fetch dinamica */}
-        <MovieGallery title="Trending Now" saga="Harry Potter" />
-        <MovieGallery title="Watch it Again" saga="Lord of the Rings" />
-        <MovieGallery title="New Releases" saga="Star Wars" />
+        <MovieGallery title="Non perderti la saga di Harry Potter" saga="Harry Potter" />
+        <MovieGallery title="Non perderti la saga di Lord of the rings" saga="Lord of the Rings" />
+        <MovieGallery title="Non perderti la saga di Star Wars" saga="Star Wars" />
+        <MovieGallery title="Non perderti la saga di Jurassic World" saga="Jurassic World" />
       </div>
       <MyFooter />
     </div>

@@ -1,10 +1,11 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
+import NetflixLogo from "./assets/logo.png";
 
 const MyNavbar = () => (
   <Navbar expand="lg" variant="dark" style={{ backgroundColor: "#1c1c1cff" }} className="px-4">
     <Container fluid>
       <Navbar.Brand href="#">
-        <img src="" alt="Logo" style={{ width: "100px", height: "55px" }} />
+        <img src={NetflixLogo} alt="" style={{ width: "100px", height: "55px" }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
